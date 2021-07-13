@@ -27,13 +27,15 @@ import dwave.inspector as inspector
 # Create empty graph
 G = nx.Graph()
 
-# TODO: Add edges to the graph (also adds nodes)
+# Add edges to the graph (also adds nodes)
+G.add_edges_from([('a', 'b'), ('b', 'c'), ('b', 'd'), ('c', 'd'), ('c', 'f'), ('d', 'f'), ('d', 'e'), ('e', 'f')])
 
 # ------- Set up our QUBO dictionary -------
 # Initialize our Q matrix
 Q = defaultdict(int)
 
-# TODO: Update Q matrix for every edge in the graph
+for i, j in G.edges:
+    # TODO: Update Q matrix for every edge in the graph
 
 # 3. TODO: Instantiate a QPU solver
 
