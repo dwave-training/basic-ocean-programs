@@ -9,8 +9,7 @@ model. You will
 1. Add the linear and quadratic biases to the QUBO dictionary
 2. Run the problem and observe the results
 
-For reference, see slide 46 in the Intro to QUBOs slide deck:  
-https://dwavesys.app.box.com/file/829819869827 
+For reference, see slide 46 in the Intro to QUBOs slide deck
 
 ### Maximum cut exercise
 Now that you have worked through the QUBO formulation in the maximum cut problem,
@@ -26,5 +25,4 @@ Here are some resources to get you started:
 * Embedding a problem onto the QPU (EmbeddingComposite): https://docs.ocean.dwavesys.com/en/latest/docs_system/reference/composites.html#embeddingcomposite
 * Observing a solution with the Inspector (using .show()): https://docs.ocean.dwavesys.com/en/latest/docs_inspector/reference/show.html#functions
 
-For easy reference here are the maximum cut solution slides with the problem formulation:  
-https://dwavesys.app.box.com/file/829822428485 
+For reference see the maximum cut solution slides with the problem formulation
