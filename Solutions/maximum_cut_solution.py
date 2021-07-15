@@ -44,7 +44,7 @@ for i, j in G.edges:
 sampler = EmbeddingComposite(DWaveSampler())
 
 # 4. Solve the problem
-sampleset = sampler.sample_qubo(Q, num_reads=100)
+sampleset = sampler.sample_qubo(Q, chain_strength = 8, num_reads=100)
 
 # Bonus - examine the results with the inspector
 inspector.show(sampleset)

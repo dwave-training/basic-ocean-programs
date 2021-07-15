@@ -27,7 +27,7 @@ Q = {('x0', 'x0'): 260, ('x1', 'x1'): 36, ('x2', 'x2'): -64,
 solver = EmbeddingComposite(DWaveSampler())
 
 # 4. Solve the problem
-sampleset = solver.sample_qubo(Q, chain_strength=50, num_reads=100)
+sampleset = solver.sample_qubo(Q, num_reads=100)
 
 # 5. Interpret results
 print(sampleset)
