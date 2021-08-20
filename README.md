@@ -1,6 +1,4 @@
-# CDL 2021
-
-## Day 1 Exercises
+# Basic Ocean Programs
 
 ### Set Partitioning exercise
 Once a QUBO is mathematically defined it can be programmatically constructed and solved on
